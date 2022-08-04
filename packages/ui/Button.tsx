@@ -1,4 +1,7 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
-};
+import styled from 'styled-components';
+
+export const Button = styled.button`
+  background-color: red;
+  color: blue;
+`;

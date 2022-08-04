@@ -4,6 +4,7 @@ import singleSpaReact from "single-spa-react";
 import Root from "./root.component";
 
 const lifecycles = singleSpaReact({
+  //@ts-ignore
   React,
   ReactDOM,
   rootComponent: Root,

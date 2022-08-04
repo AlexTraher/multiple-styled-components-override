@@ -2,9 +2,10 @@
   "extends": "ts-config-single-spa",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "declarationDir": "dist"
+    "outDir": "dist",
+    "esModuleInterop": true
   },
-  "files": ["src/mfe-mfe-2.tsx"],
+  "files": ["src/mfe-2.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }
