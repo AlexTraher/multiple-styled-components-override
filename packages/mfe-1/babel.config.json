@@ -16,6 +16,11 @@
         "useESModules": true,
         "regenerator": false
       }
+    ],
+    [
+      "babel-plugin-styled-components", {
+        "namespace": "mfe-1"
+      }
     ]
   ],
   "env": {
